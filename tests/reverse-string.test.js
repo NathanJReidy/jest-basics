@@ -1,4 +1,4 @@
-const reverseString = require("./reverse-string");
+const reverseString = require("../src/reverse-string");
 
 test("takes a string and returns it reversed", () => {
   expect(reverseString("example")).toBe("elpmaxe");
