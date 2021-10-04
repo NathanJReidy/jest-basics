@@ -15,3 +15,7 @@ test("divide two numbers", () => {
 test("multiply two numbers", () => {
   expect(calculator.multiply(5, 10)).toBe(50);
 });
+
+test("number divided by 0 returns null", () => {
+  expect(calculator.divide(10, 0)).toBeNull();
+});
