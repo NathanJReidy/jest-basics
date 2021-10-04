@@ -3,12 +3,7 @@ const calculator = (() => {
 
   const subtract = (a, b) => a - b;
 
-  const divide = (a, b) => {
-    if (b === 0) {
-      return null;
-    }
-    return a / b;
-  };
+  const divide = (a, b) => (b === 0 ? null : a / b);
 
   const multiply = (a, b) => a * b;
 
